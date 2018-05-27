@@ -1,0 +1,29 @@
+-- operator: x ++ y  appends two lists together (also strings)
+-- operator:  a : y  appends something to the beginning of y
+--                   a can be a single number or a list
+-- operator: x !! a  retrieves index a from x
+-- lists can be compared (will be lexicographical order)
+-- function: head x  gets head of list x
+-- function: tail x  gets tail of list x, NOTE: THIS IS JUST
+--                   the list without its head since lists
+--                   are recursively defined as [head: tail]
+-- function: last x  gets last element in the list
+-- function: init x  gets everything except last in list x
+-- function: length x
+-- function: null x  checks if x is null (i.e. empty)
+-- function: reverse x
+-- function: take a x take a many elements from list x
+-- function: drop a x drop a many elements from list x
+-- function: maximum x
+-- function: minimum x
+-- function: sum s
+-- function: product x
+-- function: elem a x is a an element in x, a easier way to 
+--                    call it is in infix form: a `elem` x
+-- ranges:  [1..20] ['a'..'z'] [2,4..20] [3,6..20]
+-- ranges:  big NO:=[20..1] instead:=[20,19..1]
+-- function: cycle x  infinite cycle (repeating) of x
+-- function: repeat a  like cycle but instead just one elem
+-- function: replicate a b  repeat b a times
+-- list comprehension:  [x*2 | x <- [1..10]] = take 10 [2,4..]
+-- more ex:  [ x | x <- [50..100], x `mod` 7 == 3]

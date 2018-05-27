@@ -1,0 +1,3 @@
+-- fst (a,b)  only on pairs, gets first
+-- snd (a,b)  only on pairs, gets second
+-- zip [1,2,3,4,5] [5,5,5,5,5] (pairs from lists)
